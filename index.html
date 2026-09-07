@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Life Multi-Specialist Hospital Ogbomosho</title>
+  <meta name="description" content="Green Life Hospital, Ogbomoso — healthcare information, services and appointment requests.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home"><span>✚</span> Green Life <b>Multi-Specialist Hospital</b></a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#appointment">Appointment</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">GREEN LIFE MULTI-SPECIALIST HOSPITAL • OGBOMOSHO</p>
+        <h1>Compassionate care for a healthier life.</h1>
+        <p class="lead">Welcome to Green Life Hospital in Ogbomoso. Explore our healthcare services and contact our team for enquiries or appointment requests.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#appointment">Request Appointment</a>
+          <a class="btn secondary" href="#contact">Contact Us</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="cross">✚</div>
+        <h2>Green Life Multi-Specialist Hospital</h2>
+        <p>Ogbomoso, Oyo State</p>
+        <div class="mini">Healthcare • Compassion • Service</div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <p class="eyebrow">ABOUT US</p>
+        <h2>Care with people at the heart of it.</h2>
+      </div>
+      <p>This website is a simple digital home for Green Life Hospital, Ogbomoso. Use it to present the hospital, share services, receive appointment requests and make it easier for patients to contact the hospital.</p>
+    </section>
+
+    <section id="services" class="section">
+      <p class="eyebrow">OUR SERVICES</p>
+      <h2>Healthcare services</h2>
+      <div class="grid">
+        <article class="service"><span>🩺</span><h3>General Care</h3><p>Routine consultations and general healthcare support.</p></article>
+        <article class="service"><span>👶</span><h3>Family Care</h3><p>Healthcare support for individuals and families.</p></article>
+        <article class="service"><span>💊</span><h3>Pharmacy</h3><p>Medication and prescription support, subject to hospital availability.</p></article>
+        <article class="service"><span>🔬</span><h3>Laboratory</h3><p>Laboratory and diagnostic services where available.</p></article>
+      </div>
+      <p class="note">Please confirm current services, doctors and opening hours directly with the hospital before publishing this page as an official site.</p>
+    </section>
+
+    <section id="appointment" class="section appointment">
+      <div>
+        <p class="eyebrow">APPOINTMENT</p>
+        <h2>Request an appointment</h2>
+        <p>Fill in the form. For now, this demo form opens your email app; replace the email address in the JavaScript with the hospital's official email when you have it.</p>
+      </div>
+      <form id="appointmentForm">
+        <label>Full name<input id="name" required placeholder="Your name"></label>
+        <label>Phone number<input id="phone" required type="tel" placeholder="080..."></label>
+        <label>Preferred date<input id="date" required type="date"></label>
+        <label>Reason for visit<textarea id="reason" required placeholder="Briefly describe your request"></textarea></label>
+        <button class="btn primary" type="submit">Send Appointment Request</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Green Life Multi-Specialist Hospital, Ogbomosho</h2>
+      <div class="contact-grid">
+        <div><strong>📍 Location</strong><p>Ogbomoso, Oyo State, Nigeria</p></div>
+        <div><strong>📞 Phone</strong><p><a href="tel:07034741111">07034741111</a></p></div>
+        <div><strong>🗺️ Map</strong><p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Green+Life+Hospital+Ogbomoso">Open in Google Maps</a></p></div>
+      </div>
+      <div class="warning">Contact details shown here should be verified with the hospital before the website is published officially.</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Green Life Multi-Specialist Hospital Ogbomosho. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
